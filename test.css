@@ -1,0 +1,115 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  position: relative;
+  background-image: url(images/darkwood.jpg);
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.resultBar {
+  background-image: url(images/darkwood.jpg);
+  opacity: 66%;
+  width: 92%;
+  height: 50px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 25px 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.resultBar > span{
+  color: white;
+  font-size: 60px;
+  font-family: 'Gugi';
+  font: bold;
+}
+
+.calculationBox {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 390px;
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  border: 1px solid rgba(37, 37, 37, 0.479);
+}
+
+.numbersButton {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 14px;
+}
+
+.numbers {
+  background-color: rgb(255, 255, 255,0.9);
+  color: black;
+  border: 0.7px solid #2f2e2ec7;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Nuosu SIL';
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5) inset;
+}
+
+.numbers:hover{
+  background-color: #818181a8; /* Green */
+  color: white;
+}
+
+.zeroNumber {
+  background-color: rgb(255, 255, 255,0.9);
+  color: rgb(0, 0, 0);
+  border: 0.7px solid #2f2e2ec7;
+  width: 135px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 25px;
+  font-family: "Nuosu SIL";
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5) inset;
+}
+
+.zeroNumber:hover{
+  background-color: #818181a8; /* Green */
+  color: white;
+}
+
+.plustButton {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  border-radius: 100%;
+  background-color: rgb(65, 154, 59);
+  border: none;
+}
+
+.minuseButton {
+  position: absolute;
+  top: 6px;
+  left: 32px;
+  border-radius: 100%;
+  background-color: rgb(245, 185, 59);
+  border: none;
+}
+
+.xButton {
+  position: absolute;
+  top: 6px;
+  left: 51px;
+  border-radius: 100%;
+  background-color: rgb(240, 97, 1);
+  border: none;
+}
