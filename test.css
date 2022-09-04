@@ -65,6 +65,19 @@
   box-shadow: 2px 2px rgba(0, 0, 0, 0.5) inset;
 }
 
+.operator{
+  background-color: rgb(255, 255, 255,0.9);
+  color: black;
+  border: 0.7px solid #2f2e2ec7;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Nuosu SIL';
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5) inset;
+}
+
+
 .numbers:hover{
   background-color: #818181a8; /* Green */
   color: white;
