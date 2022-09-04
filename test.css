@@ -79,11 +79,11 @@
 
 
 .numbers:hover{
-  background-color: #818181a8; /* Green */
+  background-color: #818181a8;
   color: white;
 }
 
-.zeroNumber {
+.zero {
   background-color: rgb(255, 255, 255,0.9);
   color: rgb(0, 0, 0);
   border: 0.7px solid #2f2e2ec7;
@@ -95,8 +95,8 @@
   box-shadow: 2px 2px rgba(0, 0, 0, 0.5) inset;
 }
 
-.zeroNumber:hover{
-  background-color: #818181a8; /* Green */
+.zero:hover{
+  background-color: #818181a8;
   color: white;
 }
 
@@ -125,4 +125,43 @@
   border-radius: 100%;
   background-color: rgb(240, 97, 1);
   border: none;
+}
+
+.resultClear {
+  background-color: rgb(255, 255, 255,0.9);
+  color: black;
+  border: 0.7px solid #2f2e2ec7;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Nuosu SIL';
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5) inset;
+}
+
+.calculateResult {
+  background-color: rgb(255, 255, 255,0.9);
+  color: black;
+  border: 0.7px solid #2f2e2ec7;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Nuosu SIL';
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5) inset;
+}
+
+.calculateResult:hover {
+  background-color: #818181a8;
+  color: white;
+}
+
+.resultClear:hover {
+  background-color: #818181a8;
+  color: white;
+}
+
+.operator:hover {
+  background-color: #818181a8;
+  color: white;
 }
