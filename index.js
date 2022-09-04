@@ -10,12 +10,12 @@ infoBox.addEventListener('click', function(event){ //클릭했을때 이벤트 �
   if(target.matches('button')){
     if (action === 'numbers') {
       console.log(clickButton);
-      if (infoBox.textContent === '0') {
+      if (result.textContent === '0') {
         result.textContent = clickButton
       } else {
         result.textContent += clickButton
       }
     }
-
+    
   }
 })
