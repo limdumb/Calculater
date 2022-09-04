@@ -67,7 +67,10 @@ infoBox.addEventListener("click", function (event) {
     }
 
     if (action === "calculateResult") {
-      result.textContent = calculate(firstNum, operatorInformation, lastNum);
+      switchNumber = true;
+      previousNum = firstNum
+      result.textContent = calculate(previousNum, operatorInformation, lastNum);
+      firstNum = calculate(previousNum, operatorInformation, lastNum);
     }
   }
   previousKey = clickButton;
